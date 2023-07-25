@@ -35,19 +35,127 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- font awsome cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- css link -->
     <link rel="stylesheet" href="style.css" />
 
     <!--  -->
   </head>
   <body>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <p class="bg-red-400 text-3xl">para</p>
-    <i class="fa-solid fa-arrow-right"></i>
-    <i class="fa-solid fa-arrow-right fa-fade"></i>
+    <!-- nav starts  -->
+
+    <div class="navWrapper bg-green-200 max-w-full">
+      <div class="navContainer bg-blue-300 w-[90%] m-auto">
+        <div class="navbar bg-orange-500 w-full rounded-3xl">
+          <!--  -->
+          <div class="navbar-start navLeft">
+            <div class="navigationUrl w-[65%] hidden lg:flex">
+              <ul
+                class="px-1 w-[100%] flex justify-between items-center self-center"
+              >
+                <li class="cursor-pointer"><a>Item 1</a></li>
+                <li class="cursor-pointer"><a>Item 2</a></li>
+                <li class="cursor-pointer"><a>Item 3</a></li>
+                <li class="cursor-pointer"><a>Item 3</a></li>
+              </ul>
+            </div>
+
+            <!-- logo with name starts   -->
+            <div class="flex lg:hidden items-center self-center">
+              <div class="NavLogo w-[20%] mr-2">
+                <img class="h-full w-full" src="images/logo.png" alt="" />
+              </div>
+              <div class="logoName">
+                <h1 class="text-xl text-white font-semibold">Fruit Burst</h1>
+              </div>
+            </div>
+            <!-- logo with name ends   -->
+          </div>
+          <!--  -->
+
+          <!--  -->
+
+          <div
+            class="navbar-center navBarMid hidden lg:flex items-center self-center"
+          >
+            <div class="NavLogo w-[20%] mr-2">
+              <img class="h-full w-full" src="images/logo.png" alt="" />
+            </div>
+            <div class="logoName">
+              <h1 class="text-xl text-white font-semibold">Fruit Burst</h1>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <!--  -->
+          <div class="navbar-end navBarRight bg-yellow-300">
+            <!-- drop down starts  -->
+            <div class="dropdown">
+              <!-- <label tabindex="0" class="btn btn-ghost lg:hidden"> -->
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-sm w-32 bg-gray-50 absolute top-10 -left-16"
+              >
+                <li><a>Item 1</a></li>
+                <li><a>Item 2</a></li>
+                <li><a>Item 3</a></li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <!-- drop down ends  -->
+
+            <!-- right side input starts  -->
+            <div
+              class="navRightInput py-2 px-2 w-[52%] rounded-3xl hidden lg:flex bg-white justify-evenly items-center self-start"
+            >
+              <!-- input -->
+              <input
+                class="rounded w-[85%] p-1 text-gray-700 leading-tight border-none outline-none"
+                id="username"
+                type="text"
+                placeholder="Username"
+              />
+
+              <!-- icon  -->
+              <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+            </div>
+
+            <!-- right side input ends -->
+          </div>
+          <!--  -->
+        </div>
+
+        <!--  -->
+      </div>
+    </div>
+
+    <!--  -->
+
+    <!-- nav bar ends  -->
 
     <!--  -->
     <!--  -->
